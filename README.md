@@ -1,6 +1,7 @@
 # Magento docker installer
 ## Description
 This is a project to easily launch a Magento project on docker.
+/!\ Only dev environment support for the moment /!\
 
 ## Table of contents
 - [Description](#description)
@@ -29,7 +30,7 @@ This is a project to easily launch a Magento project on docker.
 ```bash
 git clone https://github.com/Franck-dev-hub/magento-docker-installer
 mv magento-docker-installer/setup_magento.sh ./
-rm -r magento-docker-installer/setup_magento.sh
+rm -r magento-docker-installer
 ./setup_magento.sh
 ```
 
